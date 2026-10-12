@@ -1,0 +1,76 @@
+body{
+    background-image: url("Images/Image1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+h1{
+    width: 500px;
+    height: 5px;
+    background-color: blueviolet;
+    text-align: center;
+}
+/* padding */
+.para1{
+    background-color: chartreuse;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 50px;
+    color: blue;
+}
+.para2{
+    background-color: darkgreen;
+    padding: 50px 25px 100px 75px;
+}
+/* margin */
+.para3{
+    background-color: crimson;
+    color:black;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 25px;
+    margin-right: 75px;
+}
+.para4{
+    background-color:darkorchid;
+    margin: 50px 25px 100px 75px;
+}
+/* border config */
+#div1{
+    background-color: greenyellow;
+    padding: 10px;
+    margin: 10px;
+    border-top: 2px solid blue;
+    border-bottom: 5px dashed ;
+    border-left: 10px dotted ;
+    border-right: 10px double;
+}
+#div2{
+    background-color: rgb(9, 121, 212);
+    border: 10px ridge;
+}
+/* animation */
+.box{
+    margin: 50px;
+    width: 400px;
+    height: 203px;
+    background: url("Images/Image\ 2.webp") no-repeat ;
+    background-size: cover;
+    position: relative;
+
+    animation-name: moveit;
+    animation-duration: 5s;
+    animation-iteration-count: 10;
+    animation-direction: alternate;
+}
+@keyframes moveit{
+    from{
+        left: 0;
+    }
+    to{
+        left: 50%;
+    }
+}

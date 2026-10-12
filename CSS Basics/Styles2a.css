@@ -1,0 +1,28 @@
+/* element selector */
+body{
+    background-color: #691313;
+}
+h2{
+    color: chartreuse;
+    text-align: center;
+    background-color: coral;
+}
+
+/* ID selector */
+#para1{
+    background-color: darkorchid;
+    padding: 5px;
+    color: cyan;
+}
+#para2{
+    background-color: black;
+    padding: 7px;
+    color: azure;
+}
+
+/* class selector */
+.cakeTitle{
+    text-decoration: underline;
+    color: white;
+    font-variant: small-caps;
+}

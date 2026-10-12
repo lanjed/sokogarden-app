@@ -1,0 +1,20 @@
+body{
+    background-color: floralwhite;
+}
+h1{
+    color: black;
+    background-color: rgb(240, 235, 250);
+    font-weight: 900;
+    font-size: 60px;
+    
+
+    }
+p{
+    color: rgb(121, 86, 42);
+}
+h3{
+    background-color: rgb(245, 206, 155);
+    color: rgb(22, 145, 245);
+    font-weight: 700;
+    font-size: 40px;
+}

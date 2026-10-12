@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 3 - Table</title>
+</head>
+<body>
+    <center><h2>Customer purchase table</h2></center>
+    <table border="1" width="100%">
+        <tr>
+            <th>Product ID</th>
+            <th>Product Name</th>
+            <th>Product Cost</th>
+        </tr>
+
+        <tr>
+            <td colspan="2">P1001</td>
+            <td>Chocolate</td>
+            <td rowspan="2">250 kes</td>
+        </tr>
+        <tr>
+            <td rowspan="2">P1002</td>
+            <td colspan="2"><center>Crisps</center></td>
+            <td>300 kes</td>
+        </tr>
+        <tr>
+            <td>P1003</td>
+            <td>Minutes Maid</td>
+            <td>160 kes</td>
+        </tr>
+    </table>
+    <br><br><hr>
+    
+    <!-- agrichoice with specified sections -->
+     <table border="1" width="80%">
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Cost</th>
+                <th>Quantity</th>
+                <th>Contact person</th>
+            </tr>
+        </thead>
+        <body>
+            <tr>
+            <td>Maize</td>
+            <td>80Kes/Kg</td>
+            <td>40</td>
+            <td>0781224567</td>
+            </tr>
+            <tr>
+            <td rowspan="2">Beans</td>
+            <td>40Kes/Kg</td>
+            <td>20</td>
+            <td>0781234563</td>
+            </tr>
+            <tr>
+            
+            <td>70Kes/Kg</td>
+            <td>30</td>
+            <td>0781234556</td>
+            </tr>
+          </body>
+          <tfoot>
+            <tr>
+                <td colspan="3"><center><b>Total</b></center></td>
+                <td colspan="1">120 KES</td>
+            </tr>
+          </tfoot>
+          <caption>Table 2: Customer purchase table</caption>
+     </table>
+    
+</body>
+</html>

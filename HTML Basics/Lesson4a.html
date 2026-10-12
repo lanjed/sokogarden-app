@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 4 - forms</title>
+</head>
+<body>
+    <h2>HTML Forms</h2>
+    <form action="#">
+        <fieldset>
+            <legend>Personal details section</legend>
+        <input type="text" placeholder="Enter your first name"><br><br>
+        <input type="text" placeholder="Enter your last name"><br><br>
+        <input type="number" placeholder="Enter your ID number"><br><br>
+        <input type="email" placeholder="Enter your email address" required><br><br>
+        <input type="password" placeholder="Enter your password"><br><br>
+        <input type="password" placeholder="confirm your password">
+        </fieldset>
+
+        <fieldset>
+            <legend>Your Interest and Hobbies</legend>
+            <label for="">Select favourite sport</label>
+            <input type="checkbox">Football
+            <input type="checkbox">volleyball 
+            <input type="checkbox">Netball <br>
+
+            <label for="">Select Gender</label>
+            <input type="radio">Male &nbsp;&nbsp;
+            <input type="radio">Female <br>
+
+            <label for="">My profile pic</label> <br>
+            <input type="file">
+        </fieldset>
+
+        <fieldset>
+            <legend>Academic qualifications</legend>
+            <input type="text" placeholder="Enter your degree"> <br><br>
+            <label for="">Select course</label>
+            <select>
+                <option value="">Choose course</option>
+                <option value="">Engineering</option>
+                <option value="">Medicine</option>
+                <option value="">Radiography and imaging</option>
+                <option value="">Nursing</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Comment section</legend>
+            <textarea cols="30" rows="10" placeholder="Leave a comment"></textarea>
+        </fieldset>
+
+        <input type="Submit" value="Make  Application"> <br>
+        <input type="reset"><br>
+    </form>
+    <p>&copy;rights reserved</p>
+</body>
+</html>

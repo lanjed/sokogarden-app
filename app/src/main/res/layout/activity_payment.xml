@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="30dp"
+    tools:context=".PaymentActivity">
+
+<!--    product image-->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="fitCenter"
+        android:layout_margin="5dp"
+        android:id="@+id/txtProductPhoto"/>
+
+<!--    product name-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Product Name"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:layout_marginStart="10dp"
+        android:textStyle="bold"
+        android:textColor="#074DF0"
+        android:id="@+id/txtProductName"/>
+
+<!--    product description-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is an amazing product I want to buy it."
+        android:layout_margin="10dp"
+        android:textColor="#4B4949"
+        android:textSize="15sp"
+        android:id="@+id/txtProductDescription"/>
+
+<!--    product cost-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ksh. 0"
+        android:textSize="18sp"
+        android:textColor="#FF5722"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:id="@+id/txtProductCost"/>
+
+<!--    subtitle of payment prompt-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="To buy product:"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter phone 254xxxxxxxx"
+        android:background="@drawable/editext_bg"
+        android:layout_margin="10dp"
+        android:textColorHint="#4E4E4E"
+        android:id="@+id/txtPhone"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="Pay Now"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:id="@+id/pay"/>
+
+
+
+</LinearLayout>

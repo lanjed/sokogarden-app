@@ -1,0 +1,54 @@
+/* font declarations */
+.font1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style:oblique;
+    font-size:50px;
+    font-weight:900;
+    font-variant:small-caps;
+}
+
+/* formatting text using css */
+.para1{
+    color: blueviolet;
+    text-align:start;
+    text-decoration:underline;
+    text-transform: capitalize;
+    text-indent: 100px;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    line-height: 20px;
+}
+
+/* link formatting using css */
+/* .inlinework{
+    color: beige;
+    background-color: black;
+    padding: 10px; */
+/* } */
+/* unvisited link */
+.inlinework:link{
+    color: beige;
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
+/* visited link */
+.inlinework:visited{
+    color:brown;
+}
+/* mouse over link */
+.inlinework:hover{
+    background-color: brown;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+
+}
+
+/* styling lists using css */
+ul{
+    list-style-type: circle;
+    list-style-position: inside;
+}
+ol{
+    list-style-image: url("https://i0.wp.com/integrum.co.ke/wp-content/uploads/2024/07/types-of-house-designs-in-kenya.webp?fit=1024%2C682&ssl=1");
+}

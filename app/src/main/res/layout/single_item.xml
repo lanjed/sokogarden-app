@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+<!--    product photo-->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="8dp"
+        android:scaleType="centerInside"
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/product_photo"/>
+
+<!--    product name-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Product Name"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:id="@+id/product_name"/>
+
+<!--    product description-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is an amazing product I just want to buy it now"
+        android:textSize="14sp"
+        android:textColor="#555555"
+        android:layout_marginTop="4dp"
+        android:id="@+id/product_description"/>
+
+<!--    product cost-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="KES. 100"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="#FF5722"
+        android:layout_marginTop="4dp"
+        android:id="@+id/product_cost"/>
+
+<!--    submit button-->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Purchase Now"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/black"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:id="@+id/purchase"/>
+
+</LinearLayout>

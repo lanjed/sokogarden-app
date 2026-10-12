@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="14dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:animateLayoutChanges="true"
+    android:layout_marginTop="28dp"
+    android:background="#D7ADAD"
+    tools:context=".Signup">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#009942"
+        android:gravity="center"
+        android:fontFamily="sans-serif"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up tp get started"
+        android:gravity="center"
+        android:textColor="#F411CE"
+        android:layout_marginBottom="8dp"/>
+
+<!--    username field-->
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:textSize="16sp"
+        android:textColor="#19C8B6"
+        android:textColorHint="#F8A4D322"
+        android:inputType="textPersonName"
+        android:autofillHints="username"
+        android:layout_marginBottom="16dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:background="@drawable/editext_bg"
+        android:id="@+id/username"/>
+
+    <!--    email field-->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:textSize="16sp"
+        android:textColor="#19C8B6"
+        android:textColorHint="#F89ED322"
+        android:inputType="textEmailAddress"
+        android:autofillHints="emailAddress"
+        android:layout_marginBottom="16dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:background="@drawable/editext_bg"
+        android:id="@+id/email"/>
+
+    <!--    phone field-->
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone"
+        android:textSize="16sp"
+        android:textColor="#19C8B6"
+        android:textColorHint="#F8A4D322"
+        android:inputType="phone"
+        android:autofillHints="phone"
+        android:layout_marginBottom="16dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:background="@drawable/editext_bg"
+        android:id="@+id/phone"/>
+
+
+    <!--    password field-->
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textSize="16sp"
+        android:textColor="#19C8B6"
+        android:textColorHint="#F8A4D322"
+        android:inputType="textPassword"
+        android:autofillHints="password"
+        android:layout_marginBottom="16dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:background="@drawable/editext_bg"
+        android:id="@+id/password"/>
+
+<!--    submit button-->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CREATE ACCOUNT"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:elevation="2dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:contentDescription="create account"
+        android:layout_marginTop="4dp"
+        android:id="@+id/signup_button"/>
+
+</LinearLayout>
